@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Application\\Application.csproj": {}
+  },
+  "projects": {
+    "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Debanjan Paul\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Debanjan Paul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Debanjan Paul\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\POCs\\SongifyMusicApp\\MusicPlayerAPI\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Debanjan Paul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
