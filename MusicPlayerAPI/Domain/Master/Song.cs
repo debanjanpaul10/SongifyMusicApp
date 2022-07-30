@@ -36,5 +36,10 @@ namespace Domain.Master
 		/// One song can be sung by multiple artists
 		/// </summary>
 		public List<Artist> Artists { get; set; }
+
+		/// <summary>
+		/// Each song will have ratings as well
+		/// </summary>
+		public Rating Ratings { get; set; }
 	}
 }
