@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/MusicPlayerAPI/.vs/
 /MusicPlayerAPI/.vs/ProjectEvaluation
 /MusicPlayerAPI/.vs/MusicPlayerAPI/FileContentIndex
 /MusicPlayerAPI/.vs/MusicPlayerAPI/v17/.futdcache.v1
